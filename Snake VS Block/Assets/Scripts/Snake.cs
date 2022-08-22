@@ -1,19 +1,17 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Snake : MonoBehaviour
 {
 
-    public Rigidbody snakeHead;
-    private Camera mainCamera;
+  //  public Rigidbody snakeHead;
+ //   private Camera mainCamera;
 
-    private Vector3 lastInpitPos;
-    private float sidewaysSpeed;
+  //  private Vector3 lastInpitPos;
+  //  private float sidewaysSpeed;
 
-    public int speed;
-    public float Sensitivity;
+  //  public int speed;
+  //  public float Sensitivity;
 
     public GameObject SpherePrefab;
 
@@ -27,8 +25,8 @@ public class Snake : MonoBehaviour
 
     void Start()
     {
-        snakeHead = GetComponent<Rigidbody>();
-        mainCamera = Camera.main;
+     //   snakeHead = GetComponent<Rigidbody>();
+      //  mainCamera = Camera.main;
         positions.Add(Head.position);
         AddSphere();
         AddSphere();
@@ -39,22 +37,22 @@ public class Snake : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetMouseButtonDown(0))
-        {
-            lastInpitPos = Camera.main.ScreenToViewportPoint(Input.mousePosition);
-        }
-        else if (Input.GetMouseButtonUp(0))
-        {
-            sidewaysSpeed = 0;
-        }
-        else if (Input.GetMouseButton(0))
-        {
-            Vector3 delta = mainCamera.ScreenToViewportPoint(Input.mousePosition) - lastInpitPos;
-            sidewaysSpeed += delta.x * Sensitivity;
-            lastInpitPos = mainCamera.ScreenToViewportPoint(Input.mousePosition);
-        }
+  //      if (Input.GetMouseButtonDown(0))
+   //     {
+   //         lastInpitPos = Camera.main.ScreenToViewportPoint(Input.mousePosition);
+  //      }
+  //      else if (Input.GetMouseButtonUp(0))
+  //      {
+  //          sidewaysSpeed = 0;
+  //      }
+ //       else if (Input.GetMouseButton(0))
+ //       {
+  //          Vector3 delta = mainCamera.ScreenToViewportPoint(Input.mousePosition) - lastInpitPos;
+//            sidewaysSpeed += delta.x * Sensitivity;
+ //           lastInpitPos = mainCamera.ScreenToViewportPoint(Input.mousePosition);
+ //       }
 
-        snakeHead.velocity = new Vector3(sidewaysSpeed * Sensitivity, 0, speed);
+ //       snakeHead.velocity = new Vector3(sidewaysSpeed * Sensitivity, 0, speed);
 
         float distance = (Head.position - positions[0]).magnitude;
 
@@ -95,6 +93,6 @@ public class Snake : MonoBehaviour
     public void Die()
     {
         GameMonitor.OnPlayerDied();
-        snakeHead.velocity = Vector3.zero;
+        
     }
 }
