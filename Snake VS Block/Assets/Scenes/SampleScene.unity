@@ -167,7 +167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b156507242b6e074db1aa991a9da902e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Controls: {fileID: 1617744084}
+  controls: {fileID: 1617744088}
 --- !u!1 &284752973
 GameObject:
   m_ObjectHideFlags: 0
@@ -555,7 +555,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1425656538
 MonoBehaviour:
@@ -570,7 +570,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cube: {fileID: 1425656534}
-  controller: {fileID: 1617744084}
+  Snake: {fileID: 1617744084}
 --- !u!1 &1617744077 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6583649490033243059, guid: e2456c07995db0846a975b04c9f5af38, type: 3}
@@ -595,15 +595,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1617744077}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8a4d56bc402a544092c3d4fa47f6a22, type: 3}
+  m_Script: {fileID: 11500000, guid: 7740ee2640e43904f8061cfe69091b78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  snakeHead: {fileID: 1617744079}
-  speed: 7
-  Sensitivity: 7
+  SpherePrefab: {fileID: 6583649490033243059, guid: e2456c07995db0846a975b04c9f5af38, type: 3}
+  Head: {fileID: 1617744083}
+  SphereDiameter: 1
   GameMonitor: {fileID: 92663942}
-  Tail: {fileID: 1617744085}
---- !u!114 &1617744085
+--- !u!114 &1617744088
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -612,11 +611,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1617744077}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf3602904600a52448978c1d32103c4f, type: 3}
+  m_Script: {fileID: 11500000, guid: 2a9112d0c6d6b144e92843815fe467ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Head: {fileID: 1617744083}
-  SphereDiameter: 0.5
+  snakeHead: {fileID: 1617744079}
+  speed: 7
+  Sensitivity: 7
 --- !u!1001 &6583649489501823870
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -626,7 +626,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6583649490033243053, guid: e2456c07995db0846a975b04c9f5af38, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6583649490033243053, guid: e2456c07995db0846a975b04c9f5af38, type: 3}
       propertyPath: m_LocalPosition.x
@@ -646,15 +646,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6583649490033243053, guid: e2456c07995db0846a975b04c9f5af38, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6583649490033243053, guid: e2456c07995db0846a975b04c9f5af38, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6583649490033243053, guid: e2456c07995db0846a975b04c9f5af38, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6583649490033243053, guid: e2456c07995db0846a975b04c9f5af38, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
