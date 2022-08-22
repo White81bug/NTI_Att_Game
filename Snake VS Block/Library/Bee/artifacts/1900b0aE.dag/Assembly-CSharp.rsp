@@ -353,14 +353,12 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/Scripts/AwakeTail.cs"
 "Assets/Scripts/BadCube.cs"
 "Assets/Scripts/CameraFollow.cs"
 "Assets/Scripts/GameMonitor.cs"
+"Assets/Scripts/GoodSphere.cs"
 "Assets/Scripts/Snake.cs"
-"Assets/Scripts/SnakeController.cs"
 "Assets/Scripts/SnakeMovementControls.cs"
-"Assets/Scripts/SnakeTail.cs"
 -langversion:9.0
 
 /deterministic

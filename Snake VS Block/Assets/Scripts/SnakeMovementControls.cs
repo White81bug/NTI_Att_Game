@@ -12,14 +12,13 @@ public class SnakeMovementControls : MonoBehaviour
 
     public int speed;
     public float Sensitivity;
-    // Start is called before the first frame update
+
     void Start()
     {
         snakeHead = GetComponent<Rigidbody>();
         mainCamera = Camera.main;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
