@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class GameMonitor : MonoBehaviour
 {
-    public SnakeController Controls;
+
 
     public enum State
     {
@@ -17,7 +17,7 @@ public class GameMonitor : MonoBehaviour
     {
         if (CurrentState != State.Playing) return;
         CurrentState = State.Loss;
-        Controls.enabled = false;
+      
  
 
     }
@@ -27,6 +27,6 @@ public class GameMonitor : MonoBehaviour
         if (CurrentState != State.Playing) return;
 
         CurrentState = State.Won;
-        Controls.enabled = false;
+      
     }
 }

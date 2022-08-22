@@ -357,6 +357,7 @@
 "Assets/Scripts/BadCube.cs"
 "Assets/Scripts/CameraFollow.cs"
 "Assets/Scripts/GameMonitor.cs"
+"Assets/Scripts/Snake.cs"
 "Assets/Scripts/SnakeController.cs"
 "Assets/Scripts/SnakeTail.cs"
 -langversion:9.0

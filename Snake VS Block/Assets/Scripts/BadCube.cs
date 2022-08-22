@@ -5,10 +5,10 @@ using UnityEngine;
 public class BadCube : MonoBehaviour
 {
    public Collider cube;
-    public SnakeController controller;
+    public Snake Snake;
 
     private void OnCollisionEnter(Collision collision)
     {
-        controller.Die();
+        Snake.Die();
     }
 }
