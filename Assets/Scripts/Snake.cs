@@ -1,11 +1,13 @@
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Snake : MonoBehaviour
 {
 
     public Rigidbody snakeHead;
     public GameObject SpherePrefab;
+    public TextMeshPro SpheresCount;
 
     private List<Transform> Spheres = new List<Transform>();
     private List<Vector3> positions = new List<Vector3>();
@@ -14,7 +16,7 @@ public class Snake : MonoBehaviour
     public float SphereDiameter;
 
     public GameMonitor GameMonitor;
-
+    
     void Start()
     {
 
@@ -46,6 +48,8 @@ public class Snake : MonoBehaviour
         {
             Spheres[i].position = Vector3.Lerp(positions[i + 1], positions[i], distance / SphereDiameter);
         }
+
+        SpheresCount.text = Spheres.Count.ToString();
     }
     public void AddSphere()
     {

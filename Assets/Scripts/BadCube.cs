@@ -1,10 +1,33 @@
 using UnityEngine;
+using TMPro;
 
 public class BadCube : MonoBehaviour
 {
     
     public float KnockBackAmount;
+    public int MaximunHealthPoints;
     public int healthPoints;
+
+    public TextMeshPro cubeText;
+
+    private Renderer renderer;
+
+
+
+    private void Awake()
+    {
+        renderer = GetComponent<MeshRenderer>();
+        renderer.material.SetFloat("_Maximum", MaximunHealthPoints);
+        renderer.material.SetFloat("_Amount", healthPoints);
+    }
+
+    private void Update()
+    {
+        cubeText.text = healthPoints.ToString();
+        renderer.material.SetFloat("_Amount", healthPoints);
+        if (healthPoints <= 0) Destroy(gameObject);
+        
+    }
 
     private void OnCollisionEnter(Collision other)
     {
@@ -24,6 +47,7 @@ public class BadCube : MonoBehaviour
 
             healthPoints--;
         }
-        else Destroy(gameObject);
+      //  else Destroy(gameObject);
     }
+    
 }
