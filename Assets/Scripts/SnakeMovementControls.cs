@@ -11,7 +11,7 @@ public class SnakeMovementControls : MonoBehaviour
     private float sidewaysSpeed;
 
     public int speed;
-    public float Sensitivity;
+    public float sensitivity;
 
     void Start()
     {
@@ -32,10 +32,10 @@ public class SnakeMovementControls : MonoBehaviour
         else if (Input.GetMouseButton(0))
         {
             Vector3 delta = mainCamera.ScreenToViewportPoint(Input.mousePosition) - lastInpitPos;
-            sidewaysSpeed += delta.x * Sensitivity;
+            sidewaysSpeed += delta.x * sensitivity;
             lastInpitPos = mainCamera.ScreenToViewportPoint(Input.mousePosition);
         }
 
-        snakeHead.velocity = new Vector3(sidewaysSpeed * Sensitivity, 0, speed);
+        snakeHead.velocity = new Vector3(sidewaysSpeed * sensitivity, 0, speed);
     }
 }

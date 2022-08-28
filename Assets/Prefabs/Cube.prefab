@@ -93,7 +93,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 703821683844267103}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: f275c1210bc893f46bdcf1ea2de1da26, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -111,9 +111,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d4b95865f3e77141bafbb98ffac12f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  KnockBackAmount: 0.1
-  MaximunHealthPoints: 10
-  healthPoints: 1
+  knockbackAmount: 0.5
+  maximunHealthPoints: 25
+  minimunHealthPoints: 1
   cubeText: {fileID: 3668324448952217077}
 --- !u!1 &4196123600322267761
 GameObject:

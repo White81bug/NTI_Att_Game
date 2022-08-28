@@ -4,9 +4,10 @@ using TMPro;
 public class BadCube : MonoBehaviour
 {
     
-    public float KnockBackAmount;
-    public int MaximunHealthPoints;
-    public int healthPoints;
+
+    public int maximunHealthPoints;
+    public int minimunHealthPoints;
+    private int healthPoints;
 
     public TextMeshPro cubeText;
 
@@ -14,11 +15,13 @@ public class BadCube : MonoBehaviour
 
 
 
-    private void Awake()
+    private void Start()
     {
+        healthPoints = Random.Range(minimunHealthPoints,maximunHealthPoints);
         renderer = GetComponent<MeshRenderer>();
-        renderer.material.SetFloat("_Maximum", MaximunHealthPoints);
+        renderer.material.SetFloat("_Maximum", maximunHealthPoints);
         renderer.material.SetFloat("_Amount", healthPoints);
+
     }
 
     private void Update()
@@ -38,16 +41,9 @@ public class BadCube : MonoBehaviour
                 Snake.RemoveSphere();
             }
 
-            if (other.collider.TryGetComponent(out Rigidbody SnakeHead))
-            {
-                Vector3 currentPos = SnakeHead.transform.position;
-                currentPos.z -= KnockBackAmount;
-                SnakeHead.transform.position = currentPos;
-            }
 
             healthPoints--;
         }
-      //  else Destroy(gameObject);
     }
     
 }

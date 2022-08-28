@@ -9,7 +9,7 @@ public class Snake : MonoBehaviour
     public GameObject SpherePrefab;
     public TextMeshPro SpheresCount;
 
-    private List<Transform> Spheres = new List<Transform>();
+    private List<Transform> spheres = new List<Transform>();
     private List<Vector3> positions = new List<Vector3>();
 
     public Transform Head;
@@ -30,7 +30,7 @@ public class Snake : MonoBehaviour
     void Update()
     {
 
-
+        if (spheres.Count <= 0) Die();
 
         float distance = (Head.position - positions[0]).magnitude;
 
@@ -44,32 +44,31 @@ public class Snake : MonoBehaviour
         }
 
 
-        for (int i = 0; i < Spheres.Count; i++)
+        for (int i = 0; i < spheres.Count; i++)
         {
-            Spheres[i].position = Vector3.Lerp(positions[i + 1], positions[i], distance / SphereDiameter);
+            spheres[i].position = Vector3.Lerp(positions[i + 1], positions[i], distance / SphereDiameter);
         }
 
-        SpheresCount.text = Spheres.Count.ToString();
+        SpheresCount.text = spheres.Count.ToString();
     }
     public void AddSphere()
     {
         GameObject newSegment = GameObject.Instantiate(SpherePrefab, positions[positions.Count - 1], Quaternion.identity, transform);
         Transform sphere = newSegment.transform;
-        Spheres.Add(sphere);
+        spheres.Add(sphere);
         positions.Add(sphere.position);
     }
 
     public void RemoveSphere()
     {
-        if (Spheres.Count > 0)
+        if (spheres.Count > 0)
         {
-            Destroy(Spheres[0].gameObject);
-            Spheres.RemoveAt(0);
+            Destroy(spheres[0].gameObject);
+            spheres.RemoveAt(0);
             positions.RemoveAt(1);
            
         }
-        else Die();
-
+     
     }
 
     public void Die()

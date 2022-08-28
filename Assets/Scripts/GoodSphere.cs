@@ -1,9 +1,25 @@
 using UnityEngine;
+using TMPro;
 
 
 public class GoodSphere : MonoBehaviour
 {
-    public int amount;
+    public int minimumAmount;
+    public int maximumAmount;
+
+    private int amount;
+
+    public TextMeshPro amountText;
+
+    private void Start()
+    {
+        amount = Random.Range(minimumAmount, maximumAmount);  
+    }
+
+    private void Update()
+    {
+        amountText.text = amount.ToString();
+    }
 
     private void OnCollisionEnter(Collision other)
     {

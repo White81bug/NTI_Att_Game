@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2702497663948829314
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 116186848656020037, guid: 0f5c9a5723ea2894b90d5c787a878851, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 7282826999536256033, guid: 0f5c9a5723ea2894b90d5c787a878851, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7282826999536256033, guid: 0f5c9a5723ea2894b90d5c787a878851, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7282826999536256033, guid: 0f5c9a5723ea2894b90d5c787a878851, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7282826999536256033, guid: 0f5c9a5723ea2894b90d5c787a878851, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7282826999536256033, guid: 0f5c9a5723ea2894b90d5c787a878851, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7282826999536256033, guid: 0f5c9a5723ea2894b90d5c787a878851, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7282826999536256033, guid: 0f5c9a5723ea2894b90d5c787a878851, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7282826999536256033, guid: 0f5c9a5723ea2894b90d5c787a878851, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7282826999536256033, guid: 0f5c9a5723ea2894b90d5c787a878851, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7282826999536256033, guid: 0f5c9a5723ea2894b90d5c787a878851, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7282826999536256033, guid: 0f5c9a5723ea2894b90d5c787a878851, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9063591678363567772, guid: 0f5c9a5723ea2894b90d5c787a878851, type: 3}
+      propertyPath: m_Name
+      value: Line with wall (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0f5c9a5723ea2894b90d5c787a878851, type: 3}
