@@ -3,6 +3,7 @@ using UnityEngine;
 public class GameMonitor : MonoBehaviour
 {
     public SnakeMovementControls controls;
+    private const string LevelIndexKey = "LevelIndex";
 
     public enum State
     {
@@ -18,6 +19,7 @@ public class GameMonitor : MonoBehaviour
         if (CurrentState != State.Playing) return;
         CurrentState = State.Loss;
         controls.enabled = false;
+        Debug.Log("Dead");
  
 
     }
@@ -27,7 +29,21 @@ public class GameMonitor : MonoBehaviour
         if (CurrentState != State.Playing) return;
 
         CurrentState = State.Won;
+        LevelIndex++;
         controls.enabled = false;
+        Debug.Log("Won");
+        
 
     }
+
+    public int LevelIndex
+    {
+        get => PlayerPrefs.GetInt(LevelIndexKey, 0);
+        set
+        {
+            PlayerPrefs.SetInt(LevelIndexKey, value);
+            PlayerPrefs.Save();
+        }
+    }
+   
 }

@@ -11,8 +11,12 @@ public class GoodSphere : MonoBehaviour
 
     public TextMeshPro amountText;
 
+   
+
     private void Start()
     {
+       
+
         amount = Random.Range(minimumAmount, maximumAmount);  
     }
 

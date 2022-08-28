@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2238462918140789723
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1511230265050261392, guid: 9f57f8c0f0e7afc42b58d2a16c109004, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302035344340627232, guid: 9f57f8c0f0e7afc42b58d2a16c109004, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302035344340627232, guid: 9f57f8c0f0e7afc42b58d2a16c109004, type: 3}
+      propertyPath: m_VersionIndex
+      value: 1256
+      objectReference: {fileID: 0}
+    - target: {fileID: 3413087022180507346, guid: 9f57f8c0f0e7afc42b58d2a16c109004, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3413087022180507346, guid: 9f57f8c0f0e7afc42b58d2a16c109004, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3413087022180507346, guid: 9f57f8c0f0e7afc42b58d2a16c109004, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3413087022180507346, guid: 9f57f8c0f0e7afc42b58d2a16c109004, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3413087022180507346, guid: 9f57f8c0f0e7afc42b58d2a16c109004, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3413087022180507346, guid: 9f57f8c0f0e7afc42b58d2a16c109004, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3413087022180507346, guid: 9f57f8c0f0e7afc42b58d2a16c109004, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3413087022180507346, guid: 9f57f8c0f0e7afc42b58d2a16c109004, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3413087022180507346, guid: 9f57f8c0f0e7afc42b58d2a16c109004, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3413087022180507346, guid: 9f57f8c0f0e7afc42b58d2a16c109004, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3413087022180507346, guid: 9f57f8c0f0e7afc42b58d2a16c109004, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3798226191264509634, guid: 9f57f8c0f0e7afc42b58d2a16c109004, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000371424407002223, guid: 9f57f8c0f0e7afc42b58d2a16c109004, type: 3}
+      propertyPath: m_Name
+      value: Walls (4) with balls (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849513003605962273, guid: 9f57f8c0f0e7afc42b58d2a16c109004, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9f57f8c0f0e7afc42b58d2a16c109004, type: 3}

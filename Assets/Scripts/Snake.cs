@@ -76,6 +76,11 @@ public class Snake : MonoBehaviour
         GameMonitor.OnPlayerDied();
         snakeHead.velocity = Vector3.zero;
         
-        
+    }
+
+    public void Won()
+    {
+        GameMonitor.OnPlayerReachedFinish();
+        snakeHead.velocity = Vector3.zero;
     }
 }

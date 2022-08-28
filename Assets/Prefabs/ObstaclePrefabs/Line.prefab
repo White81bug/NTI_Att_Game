@@ -47,6 +47,10 @@ PrefabInstance:
       propertyPath: healthPoints
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 703821683844267090, guid: 09d76b75a040c4f429af99a8974149ff, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 703821683844267091, guid: 09d76b75a040c4f429af99a8974149ff, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -57,7 +61,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 703821683844267091, guid: 09d76b75a040c4f429af99a8974149ff, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 703821683844267091, guid: 09d76b75a040c4f429af99a8974149ff, type: 3}
       propertyPath: m_LocalPosition.z
@@ -95,6 +99,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cube (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3731799862861551366, guid: 09d76b75a040c4f429af99a8974149ff, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7841148671994994431, guid: 09d76b75a040c4f429af99a8974149ff, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7841148671994994431, guid: 09d76b75a040c4f429af99a8974149ff, type: 3}
+      propertyPath: m_VersionIndex
+      value: 537
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09d76b75a040c4f429af99a8974149ff, type: 3}
 --- !u!4 &433275993778188124 stripped
@@ -113,6 +129,10 @@ PrefabInstance:
       propertyPath: healthPoints
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 703821683844267090, guid: 09d76b75a040c4f429af99a8974149ff, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 703821683844267091, guid: 09d76b75a040c4f429af99a8974149ff, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -123,7 +143,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 703821683844267091, guid: 09d76b75a040c4f429af99a8974149ff, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 703821683844267091, guid: 09d76b75a040c4f429af99a8974149ff, type: 3}
       propertyPath: m_LocalPosition.z
@@ -161,6 +181,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cube (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3731799862861551366, guid: 09d76b75a040c4f429af99a8974149ff, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7841148671994994431, guid: 09d76b75a040c4f429af99a8974149ff, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7841148671994994431, guid: 09d76b75a040c4f429af99a8974149ff, type: 3}
+      propertyPath: m_VersionIndex
+      value: 537
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09d76b75a040c4f429af99a8974149ff, type: 3}
 --- !u!4 &4663298585812966076 stripped
@@ -179,6 +211,10 @@ PrefabInstance:
       propertyPath: healthPoints
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 703821683844267090, guid: 09d76b75a040c4f429af99a8974149ff, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 703821683844267091, guid: 09d76b75a040c4f429af99a8974149ff, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -189,7 +225,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 703821683844267091, guid: 09d76b75a040c4f429af99a8974149ff, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 703821683844267091, guid: 09d76b75a040c4f429af99a8974149ff, type: 3}
       propertyPath: m_LocalPosition.z
@@ -227,6 +263,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cube (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3731799862861551366, guid: 09d76b75a040c4f429af99a8974149ff, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7841148671994994431, guid: 09d76b75a040c4f429af99a8974149ff, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7841148671994994431, guid: 09d76b75a040c4f429af99a8974149ff, type: 3}
+      propertyPath: m_VersionIndex
+      value: 537
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09d76b75a040c4f429af99a8974149ff, type: 3}
 --- !u!4 &5970699231089152731 stripped
@@ -245,6 +293,10 @@ PrefabInstance:
       propertyPath: healthPoints
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 703821683844267090, guid: 09d76b75a040c4f429af99a8974149ff, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 703821683844267091, guid: 09d76b75a040c4f429af99a8974149ff, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -255,7 +307,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 703821683844267091, guid: 09d76b75a040c4f429af99a8974149ff, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 703821683844267091, guid: 09d76b75a040c4f429af99a8974149ff, type: 3}
       propertyPath: m_LocalPosition.z
@@ -293,6 +345,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cube (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3731799862861551366, guid: 09d76b75a040c4f429af99a8974149ff, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7841148671994994431, guid: 09d76b75a040c4f429af99a8974149ff, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7841148671994994431, guid: 09d76b75a040c4f429af99a8974149ff, type: 3}
+      propertyPath: m_VersionIndex
+      value: 537
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09d76b75a040c4f429af99a8974149ff, type: 3}
 --- !u!4 &7603696312668952966 stripped
@@ -311,6 +375,10 @@ PrefabInstance:
       propertyPath: healthPoints
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 703821683844267090, guid: 09d76b75a040c4f429af99a8974149ff, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 703821683844267091, guid: 09d76b75a040c4f429af99a8974149ff, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -321,7 +389,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 703821683844267091, guid: 09d76b75a040c4f429af99a8974149ff, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 703821683844267091, guid: 09d76b75a040c4f429af99a8974149ff, type: 3}
       propertyPath: m_LocalPosition.z
@@ -358,6 +426,18 @@ PrefabInstance:
     - target: {fileID: 703821683844267103, guid: 09d76b75a040c4f429af99a8974149ff, type: 3}
       propertyPath: m_Name
       value: Cube (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3731799862861551366, guid: 09d76b75a040c4f429af99a8974149ff, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7841148671994994431, guid: 09d76b75a040c4f429af99a8974149ff, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7841148671994994431, guid: 09d76b75a040c4f429af99a8974149ff, type: 3}
+      propertyPath: m_VersionIndex
+      value: 537
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09d76b75a040c4f429af99a8974149ff, type: 3}
