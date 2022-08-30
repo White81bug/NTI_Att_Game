@@ -2301,7 +2301,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ebc556a046f78546a36abc02ccf6d63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minimumAmount: 1
+  minimumAmount: 3
   maximumAmount: 10
   amountText: {fileID: 5675729540165197467}
 --- !u!1 &7494734649141531014

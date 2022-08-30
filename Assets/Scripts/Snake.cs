@@ -16,7 +16,10 @@ public class Snake : MonoBehaviour
     public float SphereDiameter;
 
     public GameMonitor GameMonitor;
-    
+
+
+    public AudioSource hitSound;
+    public AudioSource pickUpSound;
     void Start()
     {
 
@@ -57,6 +60,7 @@ public class Snake : MonoBehaviour
         Transform sphere = newSegment.transform;
         spheres.Add(sphere);
         positions.Add(sphere.position);
+        pickUpSound.Play();
     }
 
     public void RemoveSphere()
@@ -66,6 +70,7 @@ public class Snake : MonoBehaviour
             Destroy(spheres[0].gameObject);
             spheres.RemoveAt(0);
             positions.RemoveAt(1);
+            hitSound.Play();
            
         }
      

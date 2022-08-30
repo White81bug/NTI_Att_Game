@@ -66,7 +66,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a4fe99009199eaf4a9cfdb7515d6ba30, type: 2}
+  - {fileID: 2100000, guid: 1bf97829a88290c4b9b2e1e83041107e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -135,6 +135,8 @@ MonoBehaviour:
   Head: {fileID: 5905543869652078277}
   SphereDiameter: 1
   GameMonitor: {fileID: 0}
+  hitSound: {fileID: 0}
+  pickUpSound: {fileID: 0}
 --- !u!114 &5905543869652078286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -149,7 +151,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   snakeHead: {fileID: 5905543869652078297}
   speed: 7
-  Sensitivity: 7
+  sensitivity: 0
 --- !u!1 &5980710490631785393
 GameObject:
   m_ObjectHideFlags: 0

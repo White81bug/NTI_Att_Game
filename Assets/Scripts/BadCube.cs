@@ -18,6 +18,8 @@ public class BadCube : MonoBehaviour
 
 
 
+
+
     private void Start()
     {
         healthPoints = Random.Range(minimunHealthPoints,maximunHealthPoints);
