@@ -10,8 +10,11 @@ public class BadCube : MonoBehaviour
     private int healthPoints;
 
     public TextMeshPro cubeText;
+    public GameObject Particles;
 
     private Renderer renderer;
+
+
 
 
 
@@ -34,6 +37,7 @@ public class BadCube : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
+        GameObject.Instantiate(Particles, transform.position, Quaternion.identity);
         if (healthPoints > 0)
         {
             if (other.collider.TryGetComponent(out Snake Snake))
