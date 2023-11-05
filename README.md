@@ -1,2 +1,1 @@
-# NTI_Att_Game
- NTI attestation game (Snake VS Block clone)
+Snake vs Block 3D clone game. Built by myself using basic Unity components.
